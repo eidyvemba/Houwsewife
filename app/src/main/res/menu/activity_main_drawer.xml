@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_semana"
+            android:icon="@drawable/ic_meta"
+            android:title="@string/nav_menu_semana" />
+        <item
+            android:id="@+id/nav_menu_mes"
+            android:icon="@drawable/ic_meta"
+            android:title="@string/nav_menu_mes" />
+        <item
+            android:id="@+id/nav_receitas"
+            android:icon="@drawable/ic_lancamento"
+            android:title="@string/nav_receitas" />
+
+        <item
+            android:id="@+id/nav_nutricao"
+            android:icon="@drawable/ic_familia"
+            android:title="@string/nav_nutricao" />
+
+        <item
+            android:id="@+id/nav_compras"
+            android:icon="@drawable/ic_compras"
+            android:title="@string/nav_compras" />
+    </group>
+
+    <item android:title="@string/App">
+        <menu>
+            <!--item
+                android:id="@+id/nav_ajuda"
+                android:icon="@drawable/ic_ajuda"
+                android:title="@string/nav_ajuda" /-->
+            <item
+                android:id="@+id/nav_partilhar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/nav_partilhar" />
+            <item
+                android:id="@+id/nav_configuracoes"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/nav_configuracoes" />
+        </menu>
+    </item>
+
+</menu>

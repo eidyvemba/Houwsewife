@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Housewife</string>
+    <string name="app_visao">Visão Geral</string>
+    <string name="menu_semana">Menu da Semana</string>
+    <string name="menu_mes">Menu do Mês</string>
+    <string name="navigation_drawer_open">Mais Detalhes</string>
+    <string name="navigation_drawer_close">Menos Detalhes</string>
+    <string name="nav_header_title">Menu</string>
+    <string name="nav_header_subtitle">MS Masters</string>
+    <string name="nav_header_desc">My Money</string>
+    <string name="action_settings">Pesquisar</string>
+
+    <string name="action_sobre">Sobre</string>
+    <string name="action_ajuda">Ajuda</string>
+    <string name="action_sair">Sair</string>
+
+    <string name="nav_lancamentos">Lançamentos</string>
+    <string name="nav_metas">Metas</string>
+    <string name="nav_relatorios">Relatórios</string>
+    <string name="nav_educacao">educação</string>
+
+    <string name="nav_menu_semana">Menu da Semana</string>
+    <string name="nav_menu_mes">Menu do Mês</string>
+    <string name="nav_receitas">Receitas</string>
+    <string name="nav_nutricao">Nutrição</string>
+    <string name="nav_compras">Compras</string>
+    <string name="nav_dia_especial">Dia Especial</string>
+
+    <string name="menu_add_semana">Menu da Semana</string>
+    <string name="menu_add_receit">Nova Receita</string>
+    <string name="menu_add_compra">Novo Item</string>
+
+    <string name="nav_ajuda">Ajuda</string>
+    <string name="nav_partilhar">Partilhar</string>
+    <string name="nav_configuracoes">Configurações</string>
+    <string name="App">App</string>
+
+
+</resources>

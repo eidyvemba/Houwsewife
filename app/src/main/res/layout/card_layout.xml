@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:orientation="horizontal"
+          android:padding="1dp">
+
+          <ImageView
+              android:id="@+id/logo"
+              android:layout_width="70dp"
+              android:layout_height="65dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                  <LinearLayout
+                        android:id="@+id/linearLayout_almoco"
+                        android:layout_width="match_parent"
+                        android:layout_height="19dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_desc_almoco"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:textAlignment="inherit"
+                             android:textColor="#111"
+                             android:textStyle="bold"
+                             android:textSize="10sp"/>
+
+                      <TextView
+                          android:id="@+id/txt_desc_almoco_desc"
+                          android:layout_width="wrap_content"
+                          android:layout_height="match_parent"
+                          android:layout_marginLeft="10dp"
+                          android:textColor="#111"
+                          android:textStyle="bold"
+                          android:textSize="10sp"/>
+                  </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_jantar"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout_almoco">
+
+                    <TextView
+                        android:id="@+id/txt_desc_jantar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:textAlignment="inherit"
+                        android:textColor="#111"
+                        android:textStyle="bold"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:id="@+id/txt_desc_jantar_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#111"
+                        android:textStyle="bold"
+                        android:textSize="10sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout_jantar">
+
+                    <TextView
+                        android:id="@+id/txt_desc_extra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:textAlignment="inherit"
+                        android:textColor="#111"
+                        android:textStyle="bold"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:id="@+id/txt_desc_extra_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#111"
+                        android:textStyle="bold"
+                        android:textSize="10sp"/>
+                </LinearLayout>
+        </LinearLayout>
+        <!--<ProgressBar-->
+            <!--android:id="@+id/progressBar"-->
+            <!--style="?android:attr/progressBarStyleHorizontal"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginLeft="23dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:indeterminate="false"-->
+            <!--android:max="100"-->
+            <!--android:minHeight="50dp"-->
+            <!--android:minWidth="200dp"-->
+            <!--android:progress="1" />-->
+
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
